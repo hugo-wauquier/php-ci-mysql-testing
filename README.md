@@ -9,7 +9,3 @@ Pour installer les dépendences nécessaires, exécutez la commande `composer i`
 
 ## Demarer les tests avec la commande ci dessous:
 _`vendor/bin/phpunit --bootstrap vendor/autoload.php test`_
-# Last_IC_PHP_PROF_COURS
-# Last_IC_PHP_PROF_COURS
-# IC_PHP_Code_Base
-# IC_PHP_PROF_COURS
