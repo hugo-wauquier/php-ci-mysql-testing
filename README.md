@@ -1,11 +1,33 @@
-# Projet d'Intégration Continue (IC) - PHP, MySQL
-Ce Projet (TP) permet d'effectuer des tests sur une base de données SQL (MySQL) à l'aide de PDO (PHP Data Object).
-- Nous avons utilisé `php 7.4.*` pour nos classes PHP.
-- Les tests unitaires sont écris à l'aide du framework `phpunit version 9.4.2`.  
-- ~~Les tests de bases de donnée sont écris à l'aide du framework `dbunit version 4.0`.~~
+# 🐘 Intégration Continue (PHP & MySQL)
 
-## Installation.
-Pour installer les dépendences nécessaires, exécutez la commande `composer i` ou `composer install`
+Ce projet est un exercice pratique sur la mise en place de tests unitaires et d'intégration connectés à une base de données **MySQL** via l'interface **PDO** (PHP Data Object).
 
-## Demarer les tests avec la commande ci dessous:
-_`vendor/bin/phpunit --bootstrap vendor/autoload.php test`_
+L'objectif est de valider le fonctionnement des requêtes SQL et la logique métier associée dans un contexte d'**Intégration Continue** (CI).
+
+## 🛠️ Stack Technique
+
+* **Langage** : PHP 7.4
+* **Base de données** : MySQL
+* **Tests Unitaires** : PHPUnit 9.4.2
+* **Gestionnaire de paquets** : Composer
+
+## 🚀 Installation
+
+Assurez-vous d'avoir **PHP**, **Composer** et **MySQL** installés sur votre machine.
+
+1. Clonez ce dépôt.
+2. Installez les dépendances du projet :
+
+```bash
+composer install
+```
+
+> **Note :** Si un fichier de configuration de base de données (ex: `config.php` ou `.env`) est nécessaire, pensez à le configurer avec vos identifiants MySQL locaux avant de lancer les tests.
+
+## ✅ Lancer les tests
+
+Pour exécuter la suite de tests automatisés, lancez la commande suivante à la racine du projet :
+
+```bash
+vendor/bin/phpunit --bootstrap vendor/autoload.php test
+```
