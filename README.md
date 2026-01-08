@@ -34,4 +34,4 @@ vendor/bin/phpunit --bootstrap vendor/autoload.php test
 
 ---
 
-*Travail pratique réalisé dans le cadre du cours d'**Expertises Digitales et Logicielles** à la **Faculté Polytechnique de l'Université de Mons (UMONS)**.*
+*Travail pratique réalisé dans le cadre du cours de **Développement Logiciel** à la **Faculté Polytechnique de l'Université de Mons (UMONS)**.*
