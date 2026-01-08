@@ -31,3 +31,7 @@ Pour exécuter la suite de tests automatisés, lancez la commande suivante à la
 ```bash
 vendor/bin/phpunit --bootstrap vendor/autoload.php test
 ```
+
+---
+
+*Travail pratique réalisé dans le cadre du cours d'**Expertises Digitales et Logicielles** à la **Faculté Polytechnique de l'Université de Mons (UMONS)**.*
